@@ -11,6 +11,7 @@
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
   2. [K-Means Clustering](./ML_coding/kmeans.md)
+  3. [Biased Dice (Alias Method)](./ML_coding/biased_dice_alias_method.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
 - [ML System Design](./ML_system_design/) - 机器学习系统设计
 
