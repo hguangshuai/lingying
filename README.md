@@ -4,6 +4,7 @@
 
 - [LC Coding](./LC_coding/) - LeetCode 风格算法题
   - [Find Median (Quickselect)](./LC_coding/find_median_quickselect/find_median_quickselect.md)
+  - [Multi-dimensional Array Sum](./LC_coding/multi_dimensional_array_sum/multi_dimensional_array_sum.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
 - [ML System Design](./ML_system_design/) - 机器学习系统设计
