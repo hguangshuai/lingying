@@ -1,0 +1,44 @@
+# Overfitting, Underfitting, and Regularization
+
+## English Description / Topic
+Definitions of **Overfitting** and **Underfitting**, strategies to mitigate overfitting, and a detailed comparison between **L1 (Lasso)** and **L2 (Ridge)** regularization.
+
+## Fundamental Knowledge
+
+### 1. Overfitting vs. Underfitting
+- **Underfitting (High Bias)**: The model is too simple to capture the underlying patterns in the data (e.g., using a linear model for non-linear data). It performs poorly on both training and test sets.
+- **Overfitting (High Variance)**: The model is too complex and "memorizes" the noise in the training data rather than the general trend. It performs exceptionally well on the training set but poorly on unseen test data.
+
+### 2. How to Solve Overfitting
+- **Regularization**: Add a penalty term to the loss function to discourage large weights.
+- **More Data**: Collecting more diverse data helps the model generalize better.
+- **Feature Selection**: Remove irrelevant or redundant features.
+- **Cross-Validation**: Use techniques like K-fold to ensure the model generalizes.
+- **Simpler Model**: Reduce the number of layers, neurons, or polynomial degrees.
+- **Early Stopping**: Stop training once the validation error starts to increase.
+- **Dropout (for NN)**: Randomly deactivate neurons during training.
+
+### 3. L1 vs. L2 Regularization
+- **L2 Regularization (Ridge)**: 
+    - Adds $\lambda \sum w_i^2$ to the loss.
+    - Forces weights to be small but rarely exactly zero.
+    - Good for handling collinearity.
+- **L1 Regularization (Lasso)**: 
+    - Adds $\lambda \sum |w_i|$ to the loss.
+    - Encourages **sparsity** (sets many weights to exactly zero).
+    - Acts as a built-in **feature selector**.
+
+## Spoken / Interview Answer
+
+### "What are Overfitting and Underfitting?"
+"Overfitting is when a model fits the training data too closely, including the noise, leading to poor generalization on new data. It's a 'high variance' problem. Underfitting is when the model is too simple to learn the data's structure, leading to poor performance even on the training set. It's a 'high bias' problem."
+
+### "How do you solve Overfitting?"
+"The most common ways are adding **Regularization** (L1/L2), getting **more training data**, or using **Cross-validation** to monitor performance. For deep learning, we also use **Dropout** or **Early Stopping**."
+
+### "Difference between L1 and L2 Regularization?"
+"The main difference is that **L1 (Lasso)** encourages sparsity, meaning it can drive some weight coefficients to exactly zero. This makes it very useful for **feature selection**. **L2 (Ridge)**, on the other hand, penalizes the square of the weights, forcing them to be small but not necessarily zero. L2 is generally better if you have many features that all contribute slightly to the output."
+
+### "Why does L1 cause sparsity while L2 doesn't?"
+"This is because of the shape of the constraint. The L1 penalty has 'corners' at the axes (a diamond shape in 2D), where the loss function's contours are more likely to hit a vertex where one coordinate is zero. The L2 penalty is a circle (hypersphere), so the solution typically lands somewhere on the curve where all weights are non-zero."
+

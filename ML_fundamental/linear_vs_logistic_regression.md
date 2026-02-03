@@ -22,6 +22,13 @@ Comparing **Linear Regression** and **Logistic Regression**, with a specific foc
 ### "What is the main difference between the two?"
 "Linear Regression is used for regression tasks to predict continuous values, whereas Logistic Regression is a classification algorithm used to predict probabilities of classes. Linear regression fits a straight line to the data, while Logistic Regression fits an S-shaped sigmoid curve to squash the output between 0 and 1."
 
+### "Why do we use the Logistic (Sigmoid) Function?"
+"We use the sigmoid function for several key reasons:
+1. **Probability Mapping**: It squashes any real-valued input into the range $(0, 1)$, which is perfect for representing probabilities.
+2. **Differentiability**: It is smooth and differentiable everywhere, which is essential for gradient-based optimization.
+3. **Nice Derivative**: The derivative $\sigma'(z) = \sigma(z)(1 - \sigma(z))$ makes the gradient calculations very efficient.
+4. **Binary Classification**: It naturally models the Bernoulli distribution, which is the foundation for binary classification."
+
 ### "Can Logistic Regression have a closed-form solution?"
 "No, Logistic Regression does not have a closed-form solution like the Normal Equation in Linear Regression. 
 

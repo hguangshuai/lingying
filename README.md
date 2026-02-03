@@ -14,6 +14,7 @@
   3. [Biased Dice (Alias Method)](./ML_coding/biased_dice_alias_method.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
   1. [Linear vs Logistic Regression](./ML_fundamental/linear_vs_logistic_regression.md)
+  2. [Overfitting & Regularization](./ML_fundamental/overfitting_regularization.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
 
