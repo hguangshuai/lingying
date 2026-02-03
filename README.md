@@ -6,6 +6,7 @@
   - [Find Median (Quickselect)](./LC_coding/find_median_quickselect.md)
   - [Multi-dimensional Array Sum](./LC_coding/multi_dimensional_array_sum.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
+  - [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
 - [ML System Design](./ML_system_design/) - 机器学习系统设计
 
