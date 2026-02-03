@@ -7,6 +7,7 @@
   2. [Multi-dimensional Array Sum](./LC_coding/multi_dimensional_array_sum.md)
   3. [Biased to Uniform Random](./LC_coding/biased_to_uniform_random.md)
   4. [Minimize Convex Function](./LC_coding/minimize_convex_function.md)
+  5. [Implement Rand10() Using Rand7()](./LC_coding/rand10_using_rand7.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
