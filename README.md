@@ -10,6 +10,7 @@
   5. [Implement Rand10() Using Rand7()](./LC_coding/rand10_using_rand7.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
+  2. [K-Means Clustering](./ML_coding/kmeans.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
 - [ML System Design](./ML_system_design/) - 机器学习系统设计
 
