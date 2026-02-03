@@ -5,6 +5,7 @@
 - [LC Coding](./LC_coding/) - LeetCode 风格算法题
   1. [Find Median (Quickselect)](./LC_coding/find_median_quickselect.md)
   2. [Multi-dimensional Array Sum](./LC_coding/multi_dimensional_array_sum.md)
+  3. [Biased to Uniform Random](./LC_coding/biased_to_uniform_random.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
