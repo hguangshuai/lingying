@@ -45,6 +45,7 @@
   24. [MLE for Normal Distribution (Mean and Variance)](./ML_fundamental/mle_normal_distribution.md)
   25. [GMM and EM Algorithm](./ML_fundamental/gmm_em_algorithm.md)
   26. [Proof: Why Median Minimizes L1 Distance](./ML_fundamental/median_minimizes_l1.md)
+  27. [Random Forest Deep Dive](./ML_fundamental/random_forest_deep_dive.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
