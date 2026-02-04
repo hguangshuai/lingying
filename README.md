@@ -39,6 +39,7 @@
   19. [Common Activation Functions](./ML_fundamental/activation_functions.md)
   20. [Common Loss Functions (Detailed)](./ML_fundamental/loss_functions 2.md)
   21. [Optimizers Comparison](./ML_fundamental/13_optimizers_comparison.md)
+  22. [Comprehensive ML Mathematical Derivations](./ML_fundamental/ml_mathematical_derivations.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
