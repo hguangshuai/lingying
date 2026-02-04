@@ -8,6 +8,7 @@
   3. [Biased to Uniform Random](./LC_coding/biased_to_uniform_random.md)
   4. [Minimize Convex Function](./LC_coding/minimize_convex_function.md)
   5. [Implement Rand10() Using Rand7()](./LC_coding/rand10_using_rand7.md)
+  6. [Sort Transformed Array](./LC_coding/sort_transformed_array.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
   2. [K-Means Clustering](./ML_coding/kmeans.md)
