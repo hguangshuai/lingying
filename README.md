@@ -23,6 +23,8 @@
   7. [CNN Basics vs. MLP](./ML_fundamental/cnn_basics.md)
   8. [Logistic Regression Derivation](./ML_fundamental/logistic_regression_derivation.md)
   9. [Decision Trees (Entropy & Information Gain)](./ML_fundamental/decision_trees_detail.md)
+  10. [Random Forest vs. GBDT](./ML_fundamental/rf_vs_gbdt.md)
+  11. [Unsupervised Learning](./ML_fundamental/unsupervised_learning.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
