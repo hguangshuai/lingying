@@ -11,6 +11,7 @@
   6. [Sort Transformed Array](./LC_coding/sort_transformed_array.md)
   7. [Sparse Vector and Matrix Multiplication](./LC_coding/sparse_matrix_multiplication.md)
   8. [Bounded Blocking Queue (Concurrency)](./LC_coding/bounded_blocking_queue.md)
+  9. [Lowest Common Ancestor in a 3-Way Tree](./LC_coding/lca_3way_tree.md)
 - [ML Coding](./ML_coding/) - 机器学习编程题
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
   2. [K-Means Clustering](./ML_coding/kmeans.md)
