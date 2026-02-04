@@ -35,11 +35,12 @@
   15. [GBDT vs. XGBoost & Feature Importance](./ML_fundamental/gbdt_xgboost_advanced.md)
   16. [NN Regularization & Dropout](./ML_fundamental/nn_regularization_dropout.md)
   17. [Reinforcement Learning Basics](./ML_fundamental/reinforcement_learning_basics.md)
-  18. [MLE Derivation for Parameter p](./ML_fundamental/mle_derivation_p.md)
+  18. [MLE Derivation for Bernoulli & Binomial](./ML_fundamental/mle_derivation_p.md)
   19. [Common Activation Functions](./ML_fundamental/activation_functions.md)
   20. [Common Loss Functions (Detailed)](./ML_fundamental/loss_functions 2.md)
   21. [Optimizers Comparison](./ML_fundamental/13_optimizers_comparison.md)
   22. [Comprehensive ML Mathematical Derivations](./ML_fundamental/ml_mathematical_derivations.md)
+  23. [Expected Coin Flips (HH vs HT)](./ML_fundamental/expected_coin_flips.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)

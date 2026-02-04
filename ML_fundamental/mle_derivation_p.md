@@ -31,7 +31,31 @@ $$\sum x_i - p \sum x_i - pn + p \sum x_i = 0$$
 $$\sum x_i - pn = 0$$
 $$\hat{p}_{MLE} = \frac{\sum_{i=1}^n x_i}{n}$$
 
-**Result**: The MLE for $p$ is simply the sample mean (the proportion of successes in the sample).
+## Bernoulli vs. Binomial MLE
+
+### 1. Bernoulli Case (Single Trial per i.i.d. sample)
+(Already derived above: $\hat{p} = \bar{x}$)
+
+### 2. Binomial Case (k successes in n trials)
+Suppose we have a single observation $k$ (number of successes) from a Binomial distribution $B(n, p)$.
+- Probability Mass Function: $P(K=k) = \binom{n}{k} p^k (1-p)^{n-k}$
+
+**Step 1: Likelihood**
+$$L(p) = \binom{n}{k} p^k (1-p)^{n-k}$$
+
+**Step 2: Log-Likelihood**
+$$\ell(p) = \ln \binom{n}{k} + k \ln(p) + (n-k) \ln(1-p)$$
+
+**Step 3: Derivative**
+$$\frac{d\ell}{dp} = 0 + \frac{k}{p} - \frac{n-k}{1-p} = 0$$
+
+**Step 4: Solve for p**
+$$\frac{k}{p} = \frac{n-k}{1-p}$$
+$$k(1-p) = p(n-k)$$
+$$k - kp = np - kp$$
+$$k = np \implies \hat{p} = \frac{k}{n}$$
+
+**Summary**: Whether it's $n$ Bernoulli trials or one Binomial trial with $n$ experiments, the MLE estimate for $p$ is always the **observed success rate**.
 
 ## Spoken / Interview Answer
 "To estimate a parameter using MLE, we follow a four-step process. 
