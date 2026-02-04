@@ -12,6 +12,7 @@
   1. [Weighted Random Sampling](./ML_coding/weighted_random_sampling.md)
   2. [K-Means Clustering](./ML_coding/kmeans.md)
   3. [Biased Dice (Alias Method)](./ML_coding/biased_dice_alias_method.md)
+  4. [Poisson Distribution (Bus Arrival)](./ML_coding/poisson_bus_arrival.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
   1. [Linear vs Logistic Regression](./ML_fundamental/linear_vs_logistic_regression.md)
   2. [Overfitting & Regularization](./ML_fundamental/overfitting_regularization.md)
