@@ -40,7 +40,7 @@
   17. [Reinforcement Learning Basics](./ML_fundamental/reinforcement_learning_basics.md)
   18. [MLE Derivation for Bernoulli & Binomial](./ML_fundamental/mle_derivation_p.md)
   19. [Common Activation Functions](./ML_fundamental/activation_functions.md)
-  20. [Common Loss Functions (Detailed)](./ML_fundamental/loss_functions 2.md)
+  20. [Common Loss Functions (Detailed)](./ML_fundamental/loss_functions.md)
   21. [Optimizers Comparison](./ML_fundamental/13_optimizers_comparison.md)
   22. [Comprehensive ML Mathematical Derivations](./ML_fundamental/ml_mathematical_derivations.md)
   23. [Expected Coin Flips (HH vs HT)](./ML_fundamental/expected_coin_flips.md)
