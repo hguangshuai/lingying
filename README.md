@@ -25,6 +25,9 @@
   9. [Decision Trees (Entropy & Information Gain)](./ML_fundamental/decision_trees_detail.md)
   10. [Random Forest vs. GBDT](./ML_fundamental/rf_vs_gbdt.md)
   11. [Unsupervised Learning](./ML_fundamental/unsupervised_learning.md)
+  12. [Python yield & Generators](./ML_fundamental/python_yield_generators.md)
+  13. [Naive Bayes & Transfer Learning](./ML_fundamental/naive_bayes_transfer_learning.md)
+  14. [NLP Preprocessing & CNN Layers](./ML_fundamental/nlp_preprocessing_cnn_layers.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
