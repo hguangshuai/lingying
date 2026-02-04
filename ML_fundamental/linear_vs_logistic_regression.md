@@ -39,3 +39,24 @@ Therefore, we must use iterative optimization methods such as **Stochastic Gradi
 ### "Why is the lack of a closed-form solution not necessarily a problem?"
 "In practice, iterative methods are often preferred even for Linear Regression on very large datasets because calculating the matrix inverse $(\mathbf{X}^T\mathbf{X})^{-1}$ in the closed-form solution is computationally expensive ($O(d^3)$) and can be numerically unstable if the matrix is singular (collinearity)."
 
+---
+
+## Logistic Regression Deep Dive
+
+### 1. Key Assumptions
+- **Linearity of Independent Variables and Log-Odds**: The relationship between the input features and the log-odds (logit) must be linear.
+- **Independence of Errors**: Observations should be independent of each other.
+- **No Multicollinearity**: Independent variables should not be highly correlated with each other.
+
+### 2. Decision Boundary
+- The decision boundary for Logistic Regression is **Linear**. 
+- Specifically, it is the set of points where $P(y=1|x) = 0.5$, which corresponds to $\mathbf{w}^T\mathbf{x} + b = 0$. This defines a hyperplane in the feature space.
+
+### 3. Multi-class Extension (Softmax Regression)
+- To handle more than two classes, we use **Multinomial Logistic Regression** (also known as Softmax Regression).
+- Instead of a single sigmoid, we use the **Softmax function**, which outputs a probability distribution over $K$ classes:
+  $$P(y=k|x) = \frac{e^{\mathbf{w}_k^T\mathbf{x}}}{\sum_{j=1}^K e^{\mathbf{w}_j^T\mathbf{x}}}$$
+
+### 4. Why "Logistic" if it's for Classification?
+- It is called "regression" because it performs regression on the **probability** of the class. The underlying model predicts the log-odds, which is a continuous value, but we apply a threshold (e.g., 0.5) to use it for classification.
+

@@ -14,8 +14,11 @@
   3. [Biased Dice (Alias Method)](./ML_coding/biased_dice_alias_method.md)
   4. [Poisson Distribution (Bus Arrival)](./ML_coding/poisson_bus_arrival.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
-  1. [Linear vs Logistic Regression](./ML_fundamental/linear_vs_logistic_regression.md)
+  1. [Linear vs Logistic Regression (Deep Dive)](./ML_fundamental/linear_vs_logistic_regression.md)
   2. [Overfitting & Regularization](./ML_fundamental/overfitting_regularization.md)
+  3. [Handling Imbalanced Data](./ML_fundamental/imbalanced_data.md)
+  4. [Evaluation Metrics (Precision, Recall, ROC-AUC)](./ML_fundamental/evaluation_metrics.md)
+  5. [Benefits of DNN](./ML_fundamental/dnn_benefits.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
 
