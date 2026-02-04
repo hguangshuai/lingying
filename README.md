@@ -16,6 +16,7 @@
   4. [Poisson Distribution (Bus Arrival)](./ML_coding/poisson_bus_arrival.md)
   5. [Gini Coefficient (Income Inequality)](./ML_coding/gini_coefficient.md)
   6. [KNN from Scratch](./ML_coding/knn_from_scratch.md)
+  7. [Logistic Regression from Scratch](./ML_coding/logistic_regression_from_scratch.md)
 - [ML Fundamental](./ML_fundamental/) - 机器学习基础知识
   1. [Linear vs Logistic Regression (Deep Dive)](./ML_fundamental/linear_vs_logistic_regression.md)
   2. [Overfitting & Regularization](./ML_fundamental/overfitting_regularization.md)
