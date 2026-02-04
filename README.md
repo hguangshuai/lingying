@@ -49,6 +49,7 @@
   26. [Proof: Why Median Minimizes L1 Distance](./ML_fundamental/median_minimizes_l1.md)
   27. [Random Forest Deep Dive](./ML_fundamental/random_forest_deep_dive.md)
   28. [Why Linear and Logistic Regression are Related (GLM Perspective)](./ML_fundamental/linear_vs_logistic_glm.md)
+  29. [Calculating Mean and Variance for Billion-Scale Data](./ML_fundamental/mean_variance_big_data.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
