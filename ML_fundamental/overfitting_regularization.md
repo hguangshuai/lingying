@@ -6,8 +6,13 @@ Definitions of **Overfitting** and **Underfitting**, strategies to mitigate over
 ## Fundamental Knowledge
 
 ### 1. Overfitting vs. Underfitting
-- **Underfitting (High Bias)**: The model is too simple to capture the underlying patterns in the data (e.g., using a linear model for non-linear data). It performs poorly on both training and test sets.
-- **Overfitting (High Variance)**: The model is too complex and "memorizes" the noise in the training data rather than the general trend. It performs exceptionally well on the training set but poorly on unseen test data.
+- **Underfitting (High Bias)**: The model is too simple to capture the underlying patterns in the data. It performs poorly on both training and test sets.
+- **Overfitting (High Variance)**: The model is too complex and "memorizes" the noise in the training data. It performs well on training data but poorly on test data.
+
+### 2. How to Detect Overfitting
+- **Learning Curves**: Plot training loss and validation loss against the number of epochs. Overfitting is detected when the **training loss continues to decrease but the validation loss starts to increase**.
+- **Performance Gap**: A significant difference between training accuracy (e.g., 99%) and validation/test accuracy (e.g., 85%).
+- **Cross-Validation**: If the model performs very differently on different folds, it might be overfitting to specific patterns in the data.
 
 ### 2. How to Solve Overfitting
 - **Regularization**: Add a penalty term to the loss function to discourage large weights.

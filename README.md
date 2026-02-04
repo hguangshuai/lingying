@@ -19,6 +19,8 @@
   3. [Handling Imbalanced Data](./ML_fundamental/imbalanced_data.md)
   4. [Evaluation Metrics (Precision, Recall, ROC-AUC)](./ML_fundamental/evaluation_metrics.md)
   5. [Benefits of DNN](./ML_fundamental/dnn_benefits.md)
+  6. [Common Loss Functions & Cross-Entropy](./ML_fundamental/loss_functions.md)
+  7. [CNN Basics vs. MLP](./ML_fundamental/cnn_basics.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
 
