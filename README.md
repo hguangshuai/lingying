@@ -33,6 +33,7 @@
   14. [NLP Preprocessing & CNN Layers](./ML_fundamental/nlp_preprocessing_cnn_layers.md)
   15. [GBDT vs. XGBoost & Feature Importance](./ML_fundamental/gbdt_xgboost_advanced.md)
   16. [NN Regularization & Dropout](./ML_fundamental/nn_regularization_dropout.md)
+  17. [Reinforcement Learning Basics](./ML_fundamental/reinforcement_learning_basics.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
