@@ -23,15 +23,25 @@ Definitions of **Overfitting** and **Underfitting**, strategies to mitigate over
 - **Early Stopping**: Stop training once the validation error starts to increase.
 - **Dropout (for NN)**: Randomly deactivate neurons during training.
 
-### 3. L1 vs. L2 Regularization
+### 3. L1 vs. L2 Regularization (Formulas)
 - **L2 Regularization (Ridge)**: 
-    - Adds $\lambda \sum w_i^2$ to the loss.
+    - Loss: $J(w) = Loss_{data} + \frac{\lambda}{2} \sum_{i=1}^n w_i^2$
     - Forces weights to be small but rarely exactly zero.
     - Good for handling collinearity.
 - **L1 Regularization (Lasso)**: 
-    - Adds $\lambda \sum |w_i|$ to the loss.
+    - Loss: $J(w) = Loss_{data} + \lambda \sum_{i=1}^n |w_i|$
     - Encourages **sparsity** (sets many weights to exactly zero).
     - Acts as a built-in **feature selector**.
+
+### 4. Why L1 for Feature Selection and L2 not?
+- **Geometric Interpretation**: In 2D, the L2 constraint is a **circle** ($w_1^2 + w_2^2 \le C$), while the L1 constraint is a **diamond** ($|w_1| + |w_2| \le C$). 
+- The loss function's contours are more likely to touch the "corners" of the L1 diamond on the axes (where one weight is 0) than the smooth L2 circle.
+- **Mathematical Intuition**: The derivative of $|w|$ is constant ($\pm 1$), pushing the weight towards zero with a constant force even when the weight is very small. The derivative of $w^2$ is $2w$, which decreases as $w$ approaches zero, so the "push" vanishes.
+
+### 5. Why not L3, L4, etc.?
+- **Norm $L_p$ where $p > 2$**: As $p$ increases, the penalty for large weights becomes much more aggressive, but it provides no sparsity (the shape becomes a "squircle" and eventually a square as $p \to \infty$).
+- **Complexity**: Higher-order norms are more computationally expensive to differentiate.
+- **Non-Convexity ($p < 1$)**: Norms where $0 < p < 1$ (like $L_{0.5}$) provide even more sparsity than L1, but they make the optimization problem **non-convex**, meaning we are not guaranteed to find a global minimum. L1 is the smallest $p$ that remains convex.
 
 ## Spoken / Interview Answer
 
