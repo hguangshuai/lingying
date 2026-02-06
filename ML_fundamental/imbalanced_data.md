@@ -29,3 +29,4 @@ Strategies for training machine learning models when one class significantly out
 At the **Data level**, I might use **SMOTE** to generate synthetic data for the minority class or **undersample** the majority class if I have enough data. 
 At the **Model level**, I often use **class weights** (e.g., `class_weight='balanced'` in scikit-learn) to tell the loss function to care more about the minority class. Finally, for extremely imbalanced cases like fraud detection, I might even treat it as an **Anomaly Detection** problem."
 
+

@@ -34,3 +34,4 @@ Second, I focus on **Data and Features**. I would categorize features into User 
 Third, I **choose a model**. I usually start with a baseline like Logistic Regression to establish a performance floor, then move to more complex models like GBDT or a Deep Ranking model if we have sufficient data. 
 Finally, I define the **Evaluation strategy**. I'd use offline metrics like ROC-AUC on a time-based validation set, and ultimately evaluate the success via A/B testing on online metrics like Daily Active Users or Click-Through Rate."
 
+

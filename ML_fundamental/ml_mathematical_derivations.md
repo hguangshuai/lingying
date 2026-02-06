@@ -75,3 +75,4 @@ $$ D_{m+1}(i) = \frac{D_m(i) \exp(-\alpha_m y_i h_m(x_i))}{Z_m} $$
 - If correctly classified ($y_i h_m = 1$), weight decreases.
 - If incorrectly classified ($y_i h_m = -1$), weight increases exponentially.
 
+

@@ -29,3 +29,4 @@ There are three main metrics:
 "**XGBoost** is essentially GBDT on steroids. The biggest mathematical difference is that XGBoost uses a **Second-Order Taylor expansion** of the loss function, whereas standard GBDT only uses the first-order gradient. Additionally, XGBoost includes explicit **L1/L2 regularization** in its objective function to penalize model complexity. 
 When it comes to **Feature Importance**, most libraries provide three ways to calculate it. **Gain** is the most popular, as it measures the actual accuracy boost a feature provides. **Weight** simply counts how many times the feature was used for splitting, and **Coverage** looks at how many data points were influenced by those splits."
 
+

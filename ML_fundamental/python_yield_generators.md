@@ -19,3 +19,4 @@ Functions containing `yield` are called **Generators**. They return an iterator 
 "In Python, `yield` is used to create **Generators**. Unlike a normal function that returns a single value and terminates, a function with `yield` can produce a sequence of values over time. 
 The main advantage is **memory efficiency**. If you're processing a file with 10 million rows, using a list would crash your memory, but using `yield` allows you to stream one row at a time. It's essentially 'lazy evaluation' for sequences."
 
+

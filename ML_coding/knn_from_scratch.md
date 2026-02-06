@@ -68,3 +68,4 @@ if __name__ == "__main__":
     - **Prediction**: $O(n \cdot d)$, where $n$ is the number of training samples and $d$ is the number of features. This is because we must calculate the distance to every training point.
 - **Space Complexity**: $O(n \cdot d)$ to store the training dataset.
 
+

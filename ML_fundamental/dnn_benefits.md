@@ -23,3 +23,4 @@ Key advantages of Deep Learning models compared to traditional Machine Learning 
 Another major advantage is their **performance on unstructured data**. For tasks like image recognition or language translation, DNNs are currently the state-of-the-art. 
 Lastly, they **scale exceptionally well**. If we have a massive dataset (Big Data), a deep learning model is much more likely to continue improving in accuracy where a linear model or a decision tree would have already plateaued."
 
+

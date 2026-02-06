@@ -31,3 +31,4 @@ Reinforcement Learning is about learning what to do—how to map situations to a
 The process is guided by a feedback loop: the agent observes the current **State**, takes an **Action**, and receives a **Reward** or a **Penalty**. The goal of the agent is to learn a **Policy** that maximizes the total reward over time. 
 For example, in a self-driving car, a 'Reward' could be reaching the destination safely, while a 'Penalty' would be triggered by traffic violations or collisions. Unlike supervised learning, we don't give the agent the 'correct' answer; it has to figure out the best strategy through trial and error."
 
+

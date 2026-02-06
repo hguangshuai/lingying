@@ -56,3 +56,4 @@ if __name__ == "__main__":
 - **Time Complexity**: $O(1)$ for a single probability calculation (assuming `exp` and `factorial` are $O(1)$ or small constant).
 - **Space Complexity**: $O(1)$.
 
+

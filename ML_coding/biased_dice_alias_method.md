@@ -95,3 +95,4 @@ if __name__ == "__main__":
 - **Sampling**: **$O(1)$**. It requires one integer random generation (to pick the bin) and one float random generation (to pick between the index and its alias).
 - **Space Complexity**: $O(n)$ to store the `alias` and `prob_threshold` tables.
 
+

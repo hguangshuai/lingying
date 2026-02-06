@@ -47,3 +47,4 @@ In **Logistic Regression**, we assume the noise is Bernoulli (binary), and we us
 
 So, they aren't 'different' models; they are the same linear tool applied to different probability distributions of the target variable."
 
+

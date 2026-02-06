@@ -50,3 +50,4 @@ For $E_1$, the next flip either finishes the task or sends us back to $E_0$, so 
 Solving these linear equations, we find that $E_0 = 6$. 
 A common follow-up is to compare this with **HT**, which only takes **4** flips on average because a 'fail' flip for HT (getting HH) doesn't reset your progress as completely as it does for HH."
 
+

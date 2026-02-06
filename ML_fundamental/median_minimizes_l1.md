@@ -46,3 +46,4 @@ If I move $c$ slightly to the right, the distance to all points on the left incr
 To keep the total distance from increasing, I need to have an equal number of points on both sides. If there are more points on the right, moving right will always reduce the total sum. Therefore, the minimum must be at the point where the number of elements on the left equals the number of elements on the right, which is the **Median**. 
 By contrast, if we were minimizing the **squared** distances (L2), the 'pull' of each point would be proportional to its distance, leading us to the **Mean**."
 
+

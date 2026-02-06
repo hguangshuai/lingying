@@ -34,3 +34,4 @@ This is a classic **Image Classifier** (or a simple **Text Classifier** if 1D co
 "For **NLP preprocessing**, the goal is to clean and standardize the text. I usually start with tokenization and lowercasing. Depending on the task, I might remove stopwords or apply lemmatization to reduce the vocabulary size before mapping words to their embedding vectors.
 As for the **NN architecture**: the **Convolutional layer** acts as the 'eyes'—it looks for specific patterns. The **Max Pooling layer** simplifies the information, keeping only the strongest signals. Finally, the **Fully Connected layer** acts as the 'brain' that looks at all these patterns to make the final decision on what the input is."
 
+

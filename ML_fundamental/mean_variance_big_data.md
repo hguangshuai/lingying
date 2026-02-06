@@ -96,3 +96,4 @@ if __name__ == "__main__":
 This algorithm maintains a running mean and a sum of squares of differences from the mean ($M2$). It only requires a single pass over the data and is very stable because it uses the difference between the current point and the moving average. 
 To scale this to a distributed system like **Spark or MapReduce**, I would have each worker compute the $n, \mu,$ and $M2$ for its partition of the data, and then use a **Merging Formula** to combine these statistics into a global result. This way, we never need to store all billion points in memory at once."
 
+

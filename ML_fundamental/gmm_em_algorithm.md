@@ -41,3 +41,4 @@ Repeat E and M steps until the log-likelihood stabilizes.
 
 To solve this, we use the **EM Algorithm**. Think of it as an iterative version of MLE. In the **E-step**, we estimate the 'membership' of each data point—basically asking, 'Which Gaussian do you likely belong to?'. In the **M-step**, we treat those memberships as fixed and update the $\mu$ and $\sigma$ of each Gaussian using a weighted MLE. By alternating these steps, we are guaranteed to increase the likelihood until we reach a local optimum."
 
+

@@ -31,3 +31,4 @@ Unsupervised Learning is a type of machine learning where the algorithm is train
 Another critical use case is **Dimensionality Reduction** using PCA, which helps in simplifying data, removing noise, and improving the performance of other downstream models. 
 The biggest challenge with unsupervised learning is **evaluation**—since we don't have ground truth labels, we have to rely on internal metrics like the elbow method or silhouette score to decide if our clusters are meaningful."
 
+

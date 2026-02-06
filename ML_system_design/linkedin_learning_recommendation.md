@@ -31,3 +31,4 @@ First, we analyze the **Skill Sets** associated with the user's current job titl
 ### 5. Handling the Cold Start
 "For a brand new user or a brand new course, where interaction data is zero, we rely heavily on the **Content-Based Matching** (Skills to Course Description) and **User Profile Metadata** (Industry, Seniority) to provide the initial 'best guess' recommendations until we collect enough click-stream data to incorporate collaborative filtering."
 
+

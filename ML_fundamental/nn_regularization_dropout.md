@@ -20,3 +20,4 @@ Detailed mechanics of **Dropout** and other common regularization techniques in 
 "**Dropout** is one of the most effective ways to prevent overfitting in deep neural networks. During training, we randomly 'turn off' a percentage of neurons. This forces the network to learn redundant representations because it can't rely on any single neuron to do all the work. It's like training a sports team by making them play with random players missing—eventually, everyone becomes more versatile. 
 During **inference**, we use all the neurons, but we scale the weights so the total signal strength matches what the model experienced during training. In modern frameworks like PyTorch or TensorFlow, we use **Inverted Dropout**, which does the scaling during the training phase instead."
 
+

@@ -24,3 +24,4 @@ Overview of the **Naive Bayes** classifier and the concept of **Transfer Learnin
 "**Naive Bayes** is a simple probabilistic classifier. It's called 'Naive' because it assumes that every feature is completely independent of the others, which is rarely true in real life, but the model still performs surprisingly well on tasks like spam filtering. 
 **Transfer Learning** is the practice of taking a model that has already been trained on a massive dataset—like Google's BERT for text or ImageNet for photos—and repurposing it for your own specific problem. It's extremely powerful because it allows you to get state-of-the-art results even if you only have a small amount of data yourself."
 
+

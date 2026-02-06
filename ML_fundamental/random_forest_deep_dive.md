@@ -41,3 +41,4 @@ While RF is robust to overfitting due to averaging, it can still happen if indiv
 Compared to **Boosting**, Random Forest is much harder to overfit and easier to tune because adding more trees doesn't hurt the model—it just plateaus. 
 In an interview, if I'm asked about **Overfitting**, I focus on controlling the complexity of the individual trees using `max_depth` or `min_samples_leaf`. My favorite feature of RF is the **OOB error**, which gives me a 'free' validation score without needing a separate validation set."
 
+

@@ -35,3 +35,4 @@ Detailed breakdown of classification metrics, how they are calculated, and when 
 ### "How do you interpret AUC?"
 "AUC measures the model's ability to **rank** items. An AUC of 0.8 means that if you pick one positive and one negative sample at random, there is an 80% chance the model will assign a higher probability to the positive one. It is threshold-independent, which makes it a great metric for comparing models overall."
 
+

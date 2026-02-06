@@ -46,3 +46,4 @@ To find $\mu$, I take the partial derivative and find that it equals the **avera
 To find $\sigma^2$, I take the partial derivative with respect to the variance and find that it equals the **average of the squared deviations** from the mean. 
 One interesting detail is that the MLE for variance is technically **biased** because it divides by $n$ rather than $n-1$, which is why we often use Bessel's correction in other contexts, but for MLE, $1/n$ is the correct mathematical result."
 
+

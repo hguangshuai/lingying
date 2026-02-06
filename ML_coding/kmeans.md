@@ -82,3 +82,4 @@ if __name__ == "__main__":
     - $d$: Number of dimensions (features).
 - **Space Complexity**: $O(n \cdot d + K \cdot d)$ to store the data and the centroids.
 
+

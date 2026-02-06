@@ -47,3 +47,4 @@ $$Gini(S) = 1 - \sum_{i=1}^{c} p_i^2$$
 ### "How do you prevent a Decision Tree from overfitting?"
 "Decision trees are highly prone to overfitting because they can keep splitting until every leaf is pure. We prevent this through **Pruning** (removing branches that provide little power) or by setting constraints like **Max Depth**, **Minimum samples per leaf**, or **Minimum Information Gain** required for a split."
 
+

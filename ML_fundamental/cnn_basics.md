@@ -35,3 +35,4 @@ CNNs use **Weight Sharing** and **Local Connectivity**, meaning the same filter 
 ### "Why not just use an MLP for image classification?"
 "If we use an MLP for a 1000x1000 pixel image, the first hidden layer with 1000 neurons would have 1 billion weights. This is computationally impossible and prone to massive overfitting. A CNN would only need a few thousand parameters for the same task because the same filters are reused across the image."
 
+

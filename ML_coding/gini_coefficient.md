@@ -74,3 +74,4 @@ if __name__ == "__main__":
 - **Time Complexity**: $O(n \log n)$ due to the sorting step. The subsequent summation is $O(n)$.
 - **Space Complexity**: $O(n)$ if we create a new sorted list, or $O(1)$ if we sort in-place (depending on Python's `sorted` implementation/usage).
 
+
