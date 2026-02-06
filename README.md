@@ -53,6 +53,7 @@
   29. [Calculating Mean and Variance for Billion-Scale Data](./ML_fundamental/mean_variance_big_data.md)
   30. [Batch Normalization vs. Layer Normalization](./ML_fundamental/batch_vs_layer_normalization.md)
   31. [Vanishing and Exploding Gradients](./ML_fundamental/gradient_issues_solutions.md)
+  32. [MLE & Gradient Descent: Formulas and Derivations](./ML_fundamental/mle_gd_derivation.md)
 - [ML System Design](./ML_system_design/) - 机器学习系统 design
   1. [LinkedIn Learning Recommendation](./ML_system_design/linkedin_learning_recommendation.md)
   2. [ML Model Design Framework](./ML_system_design/ml_model_design_framework.md)
