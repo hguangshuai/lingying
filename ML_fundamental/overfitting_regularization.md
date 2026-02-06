@@ -15,13 +15,20 @@ Definitions of **Overfitting** and **Underfitting**, strategies to mitigate over
 - **Cross-Validation**: If the model performs very differently on different folds, it might be overfitting to specific patterns in the data.
 
 ### 2. How to Solve Overfitting
-- **Regularization**: Add a penalty term to the loss function to discourage large weights.
+- **Regularization**: Add a penalty term to the loss function (L1/L2) to discourage large weights.
 - **More Data**: Collecting more diverse data helps the model generalize better.
 - **Feature Selection**: Remove irrelevant or redundant features.
-- **Cross-Validation**: Use techniques like K-fold to ensure the model generalizes.
+- **Cross-Validation**: Use techniques like K-fold to ensure the model generalizes across different data subsets.
 - **Simpler Model**: Reduce the number of layers, neurons, or polynomial degrees.
 - **Early Stopping**: Stop training once the validation error starts to increase.
-- **Dropout (for NN)**: Randomly deactivate neurons during training.
+- **Dropout (for NN)**: Randomly deactivate neurons during training to prevent co-adaptation.
+
+### 3. How to Solve Underfitting
+- **Increase Model Complexity**: Add more layers, neurons, or increase polynomial degrees.
+- **Feature Engineering**: Create more informative features or add interaction terms.
+- **Reduce Regularization**: Decrease the $\lambda$ parameter in L1/L2 regularization to allow the model to learn more patterns.
+- **Train Longer**: Increase the number of epochs or training iterations.
+- **Better Features**: Ensure the input data has enough predictive power for the target task.
 
 ### 3. L1 vs. L2 Regularization (Formulas)
 - **L2 Regularization (Ridge)**: 
